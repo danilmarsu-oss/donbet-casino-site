@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login to DonBet Casino – Your Official Account Access in England</title>
+  <meta name="description" content="Log in to your DonBet Casino account on the official website in England. Access your games, bonuses, and promotions securely. Join thousands of players enjoying the best casino experience." />
+  <link rel="canonical" href="https://donbet-uk.me.uk/login/" />
+  <link rel="icon" type="image/png" href="../donbet images/favicon (2).png" />
+  <style>
+    :root {
+      --bg-main: #030303;
+      --surface: #111111;
+      --surface-soft: #191919;
+      --text-main: #f4f4f4;
+      --text-muted: #b8b8b8;
+      --accent: #f3931f;
+      --line: #2b2b2b;
+      --radius: 14px;
+      --max-width: 1180px;
+      --shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      font-family: "Trebuchet MS", "Segoe UI", Tahoma, sans-serif;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(243, 147, 31, 0.14), transparent 38%),
+        radial-gradient(circle at 90% 15%, rgba(243, 147, 31, 0.08), transparent 32%),
+        var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.55;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(100% - 2rem, var(--max-width));
+      margin-inline: auto;
+    }
+
+    .site-header {
+      background: var(--bg-main);
+      border-bottom: 1px solid #0d0d0d;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .header-row {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.85rem 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 168px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      color: #e3e3e3;
+      font-weight: 600;
+      letter-spacing: 0.15px;
+    }
+
+    .header-nav a {
+      opacity: 0.92;
+      transition: opacity 0.2s ease;
+    }
+
+    .header-nav a:hover,
+    .header-nav a:focus-visible {
+      opacity: 1;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      flex-shrink: 0;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 0.58rem 1rem;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+      font-family: inherit;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-header {
+      background: var(--accent);
+      color: #1b1206;
+    }
+
+    .btn-header:hover,
+    .btn-header:focus-visible {
+      background: #ffac49;
+      transform: translateY(-1px);
+    }
+
+    main {
+      padding-bottom: 2rem;
+    }
+
+    section {
+      margin-top: 2.4rem;
+    }
+
+    .section-title {
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.55px;
+      font-size: clamp(1.4rem, 2.5vw, 2rem);
+      margin-bottom: 1rem;
+      color: #ffe2bf;
+    }
+
+    .seo-block {
+      background: linear-gradient(145deg, #121212 0%, #0d0d0d 100%);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .seo-block h1 {
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      letter-spacing: 0.55px;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      text-transform: uppercase;
+      color: #ffe2bf;
+      margin-bottom: 0.8rem;
+    }
+
+    .seo-block h2,
+    .seo-block h3 {
+      color: #ffd2a0;
+      margin-bottom: 0.7rem;
+      margin-top: 1.2rem;
+    }
+
+    .seo-block p,
+    .seo-block li,
+    .seo-block td,
+    .seo-block th {
+      color: #f0f0f0;
+    }
+
+    .seo-block p {
+      margin-bottom: 0.75rem;
+    }
+
+    .seo-block ul,
+    .seo-block ol {
+      margin: 0 0 1rem 1.2rem;
+    }
+
+    .seo-block li {
+      margin-bottom: 0.4rem;
+    }
+
+    .seo-block table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 540px;
+      background: #0f0f0f;
+      border: 1px solid var(--line);
+      margin: 0.7rem 0 1rem;
+    }
+
+    .seo-block th,
+    .seo-block td {
+      border: 1px solid var(--line);
+      padding: 0.65rem;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    .seo-block th {
+      background: #1c1c1c;
+      color: #ffd7ab;
+    }
+
+    .seo-block em {
+      color: #f7cf9f;
+    }
+
+
+    .form-card {
+      margin: 1rem 0 1.35rem;
+      padding: 1rem;
+      background: #0f0f0f;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    .form-card h2 {
+      margin-top: 0;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.8rem;
+    }
+
+    .form-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .form-row.full {
+      grid-column: 1 / -1;
+    }
+
+    .form-label {
+      font-size: 0.92rem;
+      color: #ffd7ab;
+      font-weight: 700;
+    }
+
+    .form-input,
+    .form-textarea {
+      width: 100%;
+      border: 1px solid #3a3a3a;
+      border-radius: 10px;
+      background: #070707;
+      color: #f2f2f2;
+      padding: 0.72rem 0.78rem;
+      font: inherit;
+    }
+
+    .form-input:focus,
+    .form-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(243, 147, 31, 0.18);
+    }
+
+    .form-check {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #d8d8d8;
+      font-size: 0.9rem;
+    }
+
+    .form-submit {
+      border: 0;
+      border-radius: 999px;
+      padding: 0.72rem 1.15rem;
+      background: var(--accent);
+      color: #1b1206;
+      font-weight: 800;
+      cursor: pointer;
+      font: inherit;
+      width: fit-content;
+    }
+
+    .form-submit:hover,
+    .form-submit:focus-visible {
+      background: #ffac49;
+    }
+
+    .updated-row {
+      margin-top: 2.2rem;
+      padding: 0.9rem 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      color: #f8c487;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .site-footer {
+      margin-top: 0.9rem;
+      background: var(--bg-main);
+      padding: 1.6rem 0 1.2rem;
+      border-top: 1px solid #0d0d0d;
+    }
+
+    .footer-section + .footer-section {
+      margin-top: 1.4rem;
+    }
+
+    .badge-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 0.7rem;
+    }
+
+    .badge-link,
+    .provider-item {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 0.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 84px;
+    }
+
+    .badge-link {
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .badge-link:hover,
+    .badge-link:focus-visible {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .badge-link img,
+    .provider-item img {
+      max-height: 44px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .policy-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem 1.1rem;
+      color: #dcdcdc;
+      font-weight: 600;
+      font-size: 0.94rem;
+    }
+
+    .policy-links a {
+      text-transform: lowercase;
+      opacity: 0.9;
+    }
+
+    .policy-links a:hover,
+    .policy-links a:focus-visible {
+      opacity: 1;
+      color: #ffd0a2;
+    }
+
+    .providers-grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 0.65rem;
+    }
+
+    .copyright {
+      text-align: center;
+      color: #bdbdbd;
+      font-size: 0.92rem;
+      margin-top: 1.1rem;
+    }
+
+
+    @media (max-width: 700px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 1040px) {
+      .providers-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 820px) {
+      .header-row {
+        min-height: 56px;
+        padding: 0.45rem 0;
+        gap: 0.5rem;
+      }
+
+      .brand img {
+        width: 110px;
+      }
+
+      .header-nav {
+        display: none;
+      }
+
+      .header-actions {
+        gap: 0.4rem;
+      }
+
+      .btn {
+        font-size: 0.82rem;
+        padding: 0.44rem 0.65rem;
+      }
+
+      .badge-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .providers-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 520px) {
+      .container {
+        width: min(100% - 1.1rem, var(--max-width));
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="../" aria-label="Donbet Casino home">
+        <img src="../donbet images/donbet logo.png" alt="Donbet Casino logo" />
+      </a>
+
+      <nav class="header-nav" aria-label="Primary navigation">
+        <a href="../login/">Login</a>
+        <a href="../bonus/">Bonus</a>
+        <a href="../app/">App</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-header" href="../login/">Login</a>
+        <a class="btn btn-header" href="/go/">Register</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="seo-block" aria-label="Page content">
+<h1>Login to DonBet Casino – Official Website in England</h1>
+
+<p>Welcome to the official DonBet Casino login page for players in England. Whether you are returning to continue your favourite games or checking in to claim your latest bonus, we are here to make your experience as smooth and secure as possible. Our platform is designed with you in mind, offering a seamless login process so you can get straight to the action without unnecessary delays.</p>
+
+<div class="form-card" aria-label="Login form">
+  <h2>Secure Login Form</h2>
+  <form action="#" method="post" novalidate>
+    <div class="form-grid">
+      <div class="form-row full">
+        <label class="form-label" for="login-email">Email address</label>
+        <input class="form-input" id="login-email" name="email" type="email" autocomplete="email" required />
+      </div>
+      <div class="form-row full">
+        <label class="form-label" for="login-password">Password</label>
+        <input class="form-input" id="login-password" name="password" type="password" autocomplete="current-password" required />
+      </div>
+      <div class="form-row full">
+        <label class="form-check" for="remember-me">
+          <input id="remember-me" name="remember" type="checkbox" />
+          Keep me signed in on this device
+        </label>
+      </div>
+      <div class="form-row full">
+        <button class="form-submit" type="submit">Sign In</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<h2>How to Log In to Your DonBet Casino Account</h2>
+
+<p>Accessing your DonBet Casino account is quick and straightforward. We have built our login system to be user-friendly, ensuring that every player in England can sign in with ease. To log in, simply follow these steps:</p>
+
+<ul>
+  <li>Visit our official DonBet Casino website in England.</li>
+  <li>Click on the <strong>Login</strong> button located at the top right corner of the homepage.</li>
+  <li>Enter your registered email address and password in the provided fields.</li>
+  <li>Click the <strong>Sign In</strong> button to access your account.</li>
+  <li>Once logged in, you will be directed to your personal dashboard where all your games, bonuses, and account details await you.</li>
+</ul>
+
+<p>We recommend bookmarking our official website to ensure you always land on the correct and secure page. Your safety is our top priority, and we work continuously to protect your personal and financial information.</p>
+
+<h2>Forgot Your Password?</h2>
+
+<p>We understand that forgetting a password happens to everyone. That is why we have made the password recovery process as simple as possible. If you cannot remember your login credentials, simply click on the <strong>Forgot Password</strong> link found on our login page. Enter the email address associated with your DonBet Casino account, and we will send you a password reset link within minutes. Follow the instructions in the email to create a new secure password and regain access to your account immediately.</p>
+
+<p>If you experience any difficulties during the password reset process, our dedicated customer support team is available around the clock to assist you. We are always ready to help our players in England get back to enjoying their favourite casino games as quickly as possible.</p>
+
+<h2>New to DonBet Casino? Create Your Account Today</h2>
+
+<p>If you have not yet joined our growing community of casino enthusiasts in England, now is the perfect time to get started. Registering with DonBet Casino is completely free and takes only a few minutes. Our registration process is designed to be simple and transparent, so you can focus on what matters most – enjoying a world-class casino experience.</p>
+
+<p>To create your account, click on the <strong>Register</strong> button on our official website and fill in the required details including your name, email address, date of birth, and preferred currency. Once your account is verified, you will gain immediate access to our extensive library of games, exciting promotions, and exclusive welcome bonuses available to new players in England.</p>
+
+<h2>Why Choose DonBet Casino?</h2>
+
+<p>At DonBet Casino, we pride ourselves on delivering an exceptional gaming experience to all our players. Our official website in England is home to hundreds of premium casino games, including slots, live dealer tables, roulette, blackjack, poker, and much more. We partner with the world's leading software providers to bring you the highest quality games with stunning graphics and fair gameplay.</p>
+
+<p>Here is what makes us stand out:</p>
+
+<ul>
+  <li><strong>Extensive Game Library:</strong> We offer thousands of games to suit every type of player, from casual slot enthusiasts to seasoned table game professionals.</li>
+  <li><strong>Generous Bonuses and Promotions:</strong> Our players in England benefit from a wide range of bonuses including welcome offers, free spins, reload bonuses, cashback deals, and loyalty rewards.</li>
+  <li><strong>Safe and Secure Platform:</strong> We use the latest SSL encryption technology to protect all player data and financial transactions on our website.</li>
+  <li><strong>Fast and Reliable Payments:</strong> We support a variety of trusted payment methods for deposits and withdrawals, ensuring fast and hassle-free transactions for our players.</li>
+  <li><strong>24/7 Customer Support:</strong> Our professional support team is available at any time to assist with any questions or concerns you may have.</li>
+  <li><strong>Mobile-Friendly Experience:</strong> Our platform is fully optimised for mobile devices, allowing you to enjoy your favourite games on the go from anywhere in England.</li>
+</ul>
+
+<h2>Account Security at DonBet Casino</h2>
+
+<p>We take the security of your account extremely seriously. Our official website in England employs advanced security measures to ensure that your personal and financial information remains protected at all times. We encourage all our players to use strong, unique passwords for their accounts and to enable two-factor authentication where available.</p>
+
+<p>Please remember that we will never ask for your password via email or live chat. If you receive any suspicious communication claiming to be from DonBet Casino, do not respond and contact our support team immediately. We are committed to maintaining a safe and trustworthy environment for all our players.</p>
+
+<h2>Responsible Gaming</h2>
+
+<p>At DonBet Casino, we are dedicated to promoting responsible gaming among all our players in England. We believe that gambling should always be an enjoyable and entertaining activity. Our platform includes a range of responsible gaming tools such as deposit limits, session time reminders, self-exclusion options, and reality checks to help you stay in control of your gaming habits.</p>
+
+<p>If you ever feel that your gaming is becoming problematic, we encourage you to make use of these tools or reach out to our support team for guidance. We are here to support our players every step of the way.</p>
+
+<h2>Contact Us</h2>
+
+<p>Should you have any questions about logging in to your account or anything else related to our services, our customer support team is available 24 hours a day, 7 days a week. You can reach us via live chat directly on our official website, by email, or through our dedicated support portal. We are always happy to assist our valued players in England and ensure that your experience with DonBet Casino is nothing short of outstanding.</p>
+
+<p>We look forward to welcoming you back to DonBet Casino. Log in now and discover everything our official website in England has to offer. Your next big win could be just a click away.</p>
+      </section>
+      <div class="updated-row" id="page-updated">Page updated:</div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <section class="footer-section" aria-labelledby="trust-title">
+        <h2 class="section-title" id="trust-title">Trusted Organisations</h2>
+        <div class="badge-grid">
+          <a class="badge-link" href="https://www.gamstop.co.uk/" target="_blank" rel="noopener noreferrer" aria-label="Gamstop">
+            <img src="../trust badges/gamstop.png" alt="Gamstop" />
+          </a>
+          <a class="badge-link" href="https://www.gamcare.org.uk/" target="_blank" rel="noopener noreferrer" aria-label="GamCare">
+            <img src="../trust badges/GamCare.png" alt="GamCare" />
+          </a>
+          <a class="badge-link" href="https://www.egba.eu/" target="_blank" rel="noopener noreferrer" aria-label="EGBA">
+            <img src="../trust badges/egba.svg" alt="EGBA" />
+          </a>
+          <a class="badge-link" href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer" aria-label="BeGambleAware">
+            <img src="../trust badges/gambleaware.png" alt="BeGambleAware" />
+          </a>
+          <a class="badge-link" href="https://www.gamblingcommission.gov.uk/" target="_blank" rel="noopener noreferrer" aria-label="UK Gambling Commission">
+            <img src="../trust badges/uk-gambling-commission.svg" alt="UK Gambling Commission" />
+          </a>
+        </div>
+      </section>
+
+      <section class="footer-section" aria-label="Policy links">
+        <div class="policy-links">
+          <a href="../about-us/">about us</a>
+          <a href="../contact-us/">contact us</a>
+          <a href="../bonus-policy/">bonus policy</a>
+          <a href="../privacy-policy/">privacy policy</a>
+          <a href="../responsible-gambling/">responsible gambling</a>
+          <a href="../terms-and-conditions/">terms and conditions</a>
+        </div>
+      </section>
+
+      <section class="footer-section" aria-labelledby="providers-title">
+        <h2 class="section-title" id="providers-title">Game Providers</h2>
+        <div class="providers-grid">
+          <div class="provider-item"><img src="../providers/pragmatic-play.png" alt="Pragmatic Play" /></div>
+          <div class="provider-item"><img src="../providers/evolution.png" alt="Evolution" /></div>
+          <div class="provider-item"><img src="../providers/microgaming-logo.png" alt="Microgaming" /></div>
+          <div class="provider-item"><img src="../providers/netentlogo.png" alt="NetEnt" /></div>
+          <div class="provider-item"><img src="../providers/quickspin.png" alt="Quickspin" /></div>
+          <div class="provider-item"><img src="../providers/playngo.webp" alt="Play'n GO" /></div>
+        </div>
+      </section>
+
+      <p class="copyright">Copyright 2026 Donbet Casino Casino. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    (function setUpdatedDate() {
+      var updatedElement = document.getElementById('page-updated');
+      if (!updatedElement) {
+        return;
+      }
+      var today = new Date();
+      var formatted = today.toLocaleDateString('en-GB', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      });
+      updatedElement.textContent = 'Page updated: ' + formatted;
+    })();
+  </script>
+</body>
+</html>
